@@ -752,7 +752,7 @@ L<http://rt.cpan.org> to submit bug reports.
 
 =head1 LICENSE
 
-Copyright (c) 2005-2007 Robert Rothenberg. All rights reserved.
+Copyright (c) 2005-2007, 2025 Robert Rothenberg. All rights reserved.
 This program is free software; you can redistribute it and/or
 modify it under the same terms as Perl itself.
 
