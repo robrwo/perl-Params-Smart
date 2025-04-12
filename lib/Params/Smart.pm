@@ -358,22 +358,11 @@ The following non-core modules are required:
 
 =head1 INSTALLATION
 
-Installation can be done using the traditional Makefile.PL or the newer
-Build.PL methods.
-
-Using Makefile.PL:
+Installation can be done using the traditional F<Makefile.PL> method:
 
   perl Makefile.PL
   make test
   make install
-
-(On Windows platforms you should use C<nmake> instead.)
-
-Using Build.PL (if you have Module::Build installed):
-
-  perl Build.PL
-  perl Build test
-  perl Build install
 
 =end readme
 
