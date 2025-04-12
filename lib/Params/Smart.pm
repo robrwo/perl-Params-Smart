@@ -14,7 +14,7 @@ our @EXPORT      = qw( Params );
 our @EXPORT_OK   = qw( Params ParamsNC );
 our %EXPORT_TAGS = ( all => \@EXPORT_OK ); 
 
-our $VERSION = '0.08';
+our $VERSION = '0.09';
 
 sub parse_param {
   my $self  = shift;
