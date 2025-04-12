@@ -732,12 +732,14 @@ L<Class::ParmList> provides a framework for parameter validation as well.
 
 =head1 AUTHOR
 
-Robert Rothenberg <rrwo at cpan.org>
+Robert Rothenberg <rrwo@cpan.org>
 
 =head2 Suggestions and Bug Reporting
 
 Feedback is always welcome.  Please use the CPAN Request Tracker at
 L<http://rt.cpan.org> to submit bug reports.
+
+There is a git repository at L<https://github.com/robrwo/perl-Params-Smart>.
 
 =head1 LICENSE
 

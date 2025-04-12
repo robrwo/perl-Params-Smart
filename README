@@ -103,12 +103,16 @@ SEE ALSO
     Class::ParmList provides a framework for parameter validation as well.
 
 AUTHOR
-    Robert Rothenberg <rrwo at cpan.org>
+
+    Robert Rothenberg <rrwo@cpan.org>
 
   Suggestions and Bug Reporting
 
     Feedback is always welcome. Please use the CPAN Request Tracker at
     http://rt.cpan.org to submit bug reports.
+
+    There is a git repository at
+    https://github.com/robrwo/perl-Params-Smart.
 
 LICENSE
 
