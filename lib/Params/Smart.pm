@@ -346,7 +346,7 @@ __END__
 
 =head1 NAME
 
-Params::Smart - use both positional and named arguments in a subroutine
+Params::Smart - use both positional and named arguments in a subroutine (deprecated)
 
 =begin readme
 
@@ -378,6 +378,12 @@ Installation can be done using the traditional F<Makefile.PL> method:
   my_sub( foo=> 1, bar=>2, bo=>3 );  # call with named arguments
 
   my_sub(1, 2, 3);                   # same, with positional args
+
+=head1 STATUS
+
+This module is deprecated.
+
+It has had no significant updates since 2007.
 
 =head1 DESCRIPTION
 

@@ -20,7 +20,8 @@ WriteMakefile(
     'PL_FILES'    => {},
     'SIGN'        => 1,
     'META_MERGE'  => {
-        resources => {
+        x_deprecated => 1,
+        resources    => {
             repository => 'git://github.com:robrwo/perl-Params-Smart.git',
             bugtracker => 'https://rt.cpan.org/Public/Dist/Display.html?Name=Params-Smart',
         },

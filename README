@@ -1,7 +1,10 @@
 NAME
+
     Params::Smart - use both positional and named arguments in a subroutine
+    (deprecated)
 
 REQUIREMENTS
+
     The following non-core modules are required:
 
       Regexp::Common
@@ -25,6 +28,12 @@ SYNOPSIS
       my_sub( foo=> 1, bar=>2, bo=>3 );  # call with named arguments
 
       my_sub(1, 2, 3);                   # same, with positional args
+
+STATUS
+
+    This module is deprecated.
+
+    It has had no significant updates since 2007.
 
 DESCRIPTION
     This module provides "smart" parameter handling for subroutines without
