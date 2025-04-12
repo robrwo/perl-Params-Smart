@@ -12,7 +12,7 @@ require Exporter;
 our @ISA         = qw( Exporter );
 our @EXPORT      = qw( Params );
 our @EXPORT_OK   = qw( Params ParamsNC );
-our %EXPORT_TAGS = ( all => \@EXPORT_OK ); 
+our %EXPORT_TAGS = ( all => \@EXPORT_OK );
 
 our $VERSION = '0.09';
 
@@ -26,7 +26,7 @@ sub parse_param {
     my $info = {
       _parsed => 0,
     };
-    foreach (qw( 
+    foreach (qw(
          name type default required name_only slurp
          callback comment needs
      )) {
@@ -221,7 +221,7 @@ sub args {
 
   my $named = !(@_ % 2);
 
-  # For even number positional parameter with undef in them. 
+  # For even number positional parameter with undef in them.
   for (my $i=0; ($named && ($i < @_)); $i += 2) {
     if (!defined $_[$i]) { $named = 0 }
   }
