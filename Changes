@@ -1,7 +1,8 @@
 Revision history for Perl extension Params::Smart.
 
 0.09
-        - This module has been marked as deprecated.
+        - This module has been marked as deprecated
+        - updated README from POD
         - updated metadata in Makefile.PL
         - removed Build.PL
         - updated copyright year
